@@ -13,6 +13,7 @@
 		09346E5826E5F40D00FD0BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09346E5726E5F40D00FD0BA7 /* Preview Assets.xcassets */; };
 		09346E6326E5FB9D00FD0BA7 /* HowLayoutWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6226E5FB9D00FD0BA7 /* HowLayoutWorks.swift */; };
 		09346E6626E6075D00FD0BA7 /* AlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6526E6075D00FD0BA7 /* AlignmentGuides.swift */; };
+		09346E6926E6180F00FD0BA7 /* CustomAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6826E6180E00FD0BA7 /* CustomAlignmentGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		09346E5926E5F40D00FD0BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09346E6226E5FB9D00FD0BA7 /* HowLayoutWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowLayoutWorks.swift; sourceTree = "<group>"; };
 		09346E6526E6075D00FD0BA7 /* AlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuides.swift; sourceTree = "<group>"; };
+		09346E6826E6180E00FD0BA7 /* CustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				09346E6226E5FB9D00FD0BA7 /* HowLayoutWorks.swift */,
 				09346E6526E6075D00FD0BA7 /* AlignmentGuides.swift */,
+				09346E6826E6180E00FD0BA7 /* CustomAlignmentGuide.swift */,
 			);
 			path = "Day 92";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09346E6926E6180F00FD0BA7 /* CustomAlignmentGuide.swift in Sources */,
 				09346E6626E6075D00FD0BA7 /* AlignmentGuides.swift in Sources */,
 				09346E5326E5F40900FD0BA7 /* ContentView.swift in Sources */,
 				09346E5126E5F40900FD0BA7 /* LayoutAndGeometryApp.swift in Sources */,
