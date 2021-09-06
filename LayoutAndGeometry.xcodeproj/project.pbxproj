@@ -11,6 +11,7 @@
 		09346E5326E5F40900FD0BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E5226E5F40900FD0BA7 /* ContentView.swift */; };
 		09346E5526E5F40D00FD0BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09346E5426E5F40D00FD0BA7 /* Assets.xcassets */; };
 		09346E5826E5F40D00FD0BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09346E5726E5F40D00FD0BA7 /* Preview Assets.xcassets */; };
+		09346E6326E5FB9D00FD0BA7 /* HowLayoutWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6226E5FB9D00FD0BA7 /* HowLayoutWorks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		09346E5426E5F40D00FD0BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09346E5726E5F40D00FD0BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09346E5926E5F40D00FD0BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09346E6226E5FB9D00FD0BA7 /* HowLayoutWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowLayoutWorks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		09346E4F26E5F40900FD0BA7 /* LayoutAndGeometry */ = {
 			isa = PBXGroup;
 			children = (
+				09346E6026E5F42700FD0BA7 /* Day 92 */,
 				09346E5026E5F40900FD0BA7 /* LayoutAndGeometryApp.swift */,
 				09346E5226E5F40900FD0BA7 /* ContentView.swift */,
 				09346E5426E5F40D00FD0BA7 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				09346E5726E5F40D00FD0BA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09346E6026E5F42700FD0BA7 /* Day 92 */ = {
+			isa = PBXGroup;
+			children = (
+				09346E6226E5FB9D00FD0BA7 /* HowLayoutWorks.swift */,
+			);
+			path = "Day 92";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				09346E5326E5F40900FD0BA7 /* ContentView.swift in Sources */,
 				09346E5126E5F40900FD0BA7 /* LayoutAndGeometryApp.swift in Sources */,
+				09346E6326E5FB9D00FD0BA7 /* HowLayoutWorks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
