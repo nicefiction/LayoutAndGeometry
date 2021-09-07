@@ -15,6 +15,8 @@
 		09346E6626E6075D00FD0BA7 /* AlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6526E6075D00FD0BA7 /* AlignmentGuides.swift */; };
 		09346E6926E6180F00FD0BA7 /* CustomAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6826E6180E00FD0BA7 /* CustomAlignmentGuide.swift */; };
 		09346E6D26E7594D00FD0BA7 /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6C26E7594D00FD0BA7 /* AbsolutePositioning.swift */; };
+		09346E7126E764B200FD0BA7 /* UnderstandingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E7026E764B100FD0BA7 /* UnderstandingGeometryReader.swift */; };
+		09346E7426E767C900FD0BA7 /* CoordinateSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E7326E767C900FD0BA7 /* CoordinateSpaces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		09346E6526E6075D00FD0BA7 /* AlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuides.swift; sourceTree = "<group>"; };
 		09346E6826E6180E00FD0BA7 /* CustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuide.swift; sourceTree = "<group>"; };
 		09346E6C26E7594D00FD0BA7 /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
+		09346E7026E764B100FD0BA7 /* UnderstandingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingGeometryReader.swift; sourceTree = "<group>"; };
+		09346E7326E767C900FD0BA7 /* CoordinateSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpaces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				09346E6C26E7594D00FD0BA7 /* AbsolutePositioning.swift */,
+				09346E7026E764B100FD0BA7 /* UnderstandingGeometryReader.swift */,
+				09346E7326E767C900FD0BA7 /* CoordinateSpaces.swift */,
 			);
 			path = "Day 93";
 			sourceTree = "<group>";
@@ -166,12 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09346E7426E767C900FD0BA7 /* CoordinateSpaces.swift in Sources */,
 				09346E6926E6180F00FD0BA7 /* CustomAlignmentGuide.swift in Sources */,
 				09346E6626E6075D00FD0BA7 /* AlignmentGuides.swift in Sources */,
 				09346E5326E5F40900FD0BA7 /* ContentView.swift in Sources */,
 				09346E5126E5F40900FD0BA7 /* LayoutAndGeometryApp.swift in Sources */,
 				09346E6D26E7594D00FD0BA7 /* AbsolutePositioning.swift in Sources */,
 				09346E6326E5FB9D00FD0BA7 /* HowLayoutWorks.swift in Sources */,
+				09346E7126E764B200FD0BA7 /* UnderstandingGeometryReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
