@@ -12,7 +12,7 @@ struct LayoutAndGeometryApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-         CoordinateSpaces()
+         CoverFlowScrolling()
         }
     }
 }

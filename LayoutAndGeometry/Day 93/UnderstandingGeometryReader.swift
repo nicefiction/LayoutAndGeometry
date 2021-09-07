@@ -34,6 +34,35 @@ struct UnderstandingGeometryReader: View {
          Text("Hello Again")
             .background(Color.green)
       }
+      
+//      VStack {
+//         GeometryReader { geometryProxy in
+//            Text("Hello, World!")
+//               .frame(width: geometryProxy.size.width * 0.90,
+//                      height: 40)
+//               .background(Color.red)
+//         }
+//         .background(Color.orange)
+//         GeometryReader { geometryProxy in
+//            Text("Hello Again")
+//               .frame(width: geometryProxy.size.width * 0.90,
+//                      height: 40)
+//               .background(Color.green)
+//         }
+//         .background(Color.yellow)
+//      }
+      
+//      VStack {
+//         GeometryReader { geometryProxy in
+//            Text("Hello, World!")
+//               .frame(width: geometryProxy.size.width * 0.90,
+//                      height: 40)
+//               .background(Color.red)
+//            Text("Hello Again")
+//               .background(Color.green)
+//         }
+//         .background(Color.orange)
+//      }
    }
 }
 

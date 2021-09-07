@@ -17,6 +17,9 @@
 		09346E6D26E7594D00FD0BA7 /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E6C26E7594D00FD0BA7 /* AbsolutePositioning.swift */; };
 		09346E7126E764B200FD0BA7 /* UnderstandingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E7026E764B100FD0BA7 /* UnderstandingGeometryReader.swift */; };
 		09346E7426E767C900FD0BA7 /* CoordinateSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E7326E767C900FD0BA7 /* CoordinateSpaces.swift */; };
+		09346E7726E78A4D00FD0BA7 /* CoordinateSpacesExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E7626E78A4D00FD0BA7 /* CoordinateSpacesExperiment.swift */; };
+		09346E7A26E79FFE00FD0BA7 /* ScrollViewEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E7926E79FFD00FD0BA7 /* ScrollViewEffects.swift */; };
+		09346E7D26E7A79900FD0BA7 /* CoverFlowScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346E7C26E7A79800FD0BA7 /* CoverFlowScrolling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		09346E6C26E7594D00FD0BA7 /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
 		09346E7026E764B100FD0BA7 /* UnderstandingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingGeometryReader.swift; sourceTree = "<group>"; };
 		09346E7326E767C900FD0BA7 /* CoordinateSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpaces.swift; sourceTree = "<group>"; };
+		09346E7626E78A4D00FD0BA7 /* CoordinateSpacesExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpacesExperiment.swift; sourceTree = "<group>"; };
+		09346E7926E79FFD00FD0BA7 /* ScrollViewEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEffects.swift; sourceTree = "<group>"; };
+		09346E7C26E7A79800FD0BA7 /* CoverFlowScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowScrolling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 				09346E6C26E7594D00FD0BA7 /* AbsolutePositioning.swift */,
 				09346E7026E764B100FD0BA7 /* UnderstandingGeometryReader.swift */,
 				09346E7326E767C900FD0BA7 /* CoordinateSpaces.swift */,
+				09346E7626E78A4D00FD0BA7 /* CoordinateSpacesExperiment.swift */,
+				09346E7926E79FFD00FD0BA7 /* ScrollViewEffects.swift */,
+				09346E7C26E7A79800FD0BA7 /* CoverFlowScrolling.swift */,
 			);
 			path = "Day 93";
 			sourceTree = "<group>";
@@ -176,9 +185,12 @@
 				09346E6926E6180F00FD0BA7 /* CustomAlignmentGuide.swift in Sources */,
 				09346E6626E6075D00FD0BA7 /* AlignmentGuides.swift in Sources */,
 				09346E5326E5F40900FD0BA7 /* ContentView.swift in Sources */,
+				09346E7726E78A4D00FD0BA7 /* CoordinateSpacesExperiment.swift in Sources */,
 				09346E5126E5F40900FD0BA7 /* LayoutAndGeometryApp.swift in Sources */,
+				09346E7A26E79FFE00FD0BA7 /* ScrollViewEffects.swift in Sources */,
 				09346E6D26E7594D00FD0BA7 /* AbsolutePositioning.swift in Sources */,
 				09346E6326E5FB9D00FD0BA7 /* HowLayoutWorks.swift in Sources */,
+				09346E7D26E7A79900FD0BA7 /* CoverFlowScrolling.swift in Sources */,
 				09346E7126E764B200FD0BA7 /* UnderstandingGeometryReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
