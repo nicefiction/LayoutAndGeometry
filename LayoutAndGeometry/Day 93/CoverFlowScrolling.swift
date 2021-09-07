@@ -38,7 +38,9 @@ struct CoverFlowScrolling: View {
             /// Positions the first square in the middle .
             .padding(.horizontal,
                      (outerGeometryProxy.size.width - 150) / 2)
-            .frame(height: outerGeometryProxy.size.height / 2)
+            
+            .position(x: outerGeometryProxy.frame(in: .local).midX + 550, // OLIVIER
+                      y: outerGeometryProxy.frame(in: .local).midY + 250) // OLIVIER
          }
       }
       //         .edgesIgnoringSafeArea(.all)
