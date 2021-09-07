@@ -41,12 +41,12 @@ struct CoverFlowScrolling: View {
             /// Uncovers the edges of the rotated rectangles .
             .padding(.vertical)
          }
+         .position(x: outerGeometryProxy.frame(in: .local).midX,
+                   y: outerGeometryProxy.frame(in: .local).midY * 1.75)
       }
    }
 }
-/*
- outerGeometryProxy
- */
+
 
 
 
