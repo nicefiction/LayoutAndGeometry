@@ -38,12 +38,10 @@ struct CoverFlowScrolling: View {
             /// Positions the first square in the middle .
             .padding(.horizontal,
                      (outerGeometryProxy.size.width - 150) / 2)
-            
-            .position(x: outerGeometryProxy.frame(in: .local).midX + 550, // OLIVIER
-                      y: outerGeometryProxy.frame(in: .local).midY + 250) // OLIVIER
+            /// Uncovers the edges of the rotated rectangles .
+            .padding(.vertical)
          }
       }
-      //         .edgesIgnoringSafeArea(.all)
    }
 }
 /*
