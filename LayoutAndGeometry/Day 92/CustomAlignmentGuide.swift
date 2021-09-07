@@ -26,6 +26,8 @@ struct CustomAlignmentGuide: View {
                       height: 77)
          }
          VStack {
+            Text("Some more text.")
+            Text("Some text.")
             Text("Full Name")
             Text("Olivier Van hamme")
                .alignmentGuide(.midAccountName) { (viewDimensions: ViewDimensions) in
